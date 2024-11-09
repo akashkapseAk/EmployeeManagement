@@ -5,7 +5,7 @@ server:
 //configuration Your database details
 spring:
   datasource:
-    url: 
+    url: jdbc:mysql://localhost:3306/employeesmanagment
     username: 
     password:
 
