@@ -11,6 +11,7 @@
 	<groupId>com.employee</groupId>
 	<artifactId>Employee-Management-System</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>Employee-Management-System</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
