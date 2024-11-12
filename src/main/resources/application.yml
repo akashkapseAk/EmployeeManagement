@@ -1,16 +1,15 @@
 server:
   port: 6090
-
-
-//configuration Your database details
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/employeesmanagment
     username: root
     password:
+     driver-class-name: com.mysql.jdbc.Driver
 
   jpa:
     hibernate:
       ddl-auto: update
 
     show-sql: true
+    
